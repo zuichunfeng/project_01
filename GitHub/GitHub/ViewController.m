@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UILabel *label = [[UILabel alloc]initWithFrame:self.view.bounds];
+    label.backgroundColor = [UIColor cyanColor];
+    [self.view addSubview:label];
+    
 }
 
 - (void)didReceiveMemoryWarning {
